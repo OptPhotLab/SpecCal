@@ -33,3 +33,10 @@ Michele Meroni, PhD
 License:
 --------
 GPL-3.0
+
+Citation:
+---------
+
+Please cite as: 
+
+L. Busetto, M. Meroni, G.F. Crosta, L. Guanter, R. Colombo, SpecCal: Novel software for in-field spectral characterization of high-resolution spectrometers, Computers & Geosciences, Volume 37, Issue 10, October 2011, Pages 1685-1691, ISSN 0098-3004, http://doi.org/10.1016/j.cageo.2010.12.005 (http://www.sciencedirect.com/science/article/pii/S0098300411000288).
