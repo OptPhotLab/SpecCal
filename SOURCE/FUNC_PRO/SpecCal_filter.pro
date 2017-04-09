@@ -30,6 +30,7 @@
 ; 
 ; ------------------------------------------------------------------------------
 ; Copyright Lorenzo Busetto and Michele Meroni, 2010
+; License: GPL-3
 ; 
 ;   This file is part of SpecCal.
 ;
