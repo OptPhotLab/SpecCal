@@ -1,9 +1,10 @@
 SpecCal v.1.2
 =============
 
-SpecCal: a novel software for in-field spectral characterization of high-resolution spectrometers
+SpecCal is a stand-alone IDL application for the in-field spectral calibration of high-resolution spectrometers, based on the spectral matching algorithm proposed by Meroni et al. (2010). This repository contains a copy of the software originally submitted alongside the paper by Busetto et al. "SpecCal: a novel software for in-field spectral characterization of high-resolution spectrometers" (See "Citation". 
 
-SpecCal is a stand-alone IDL application for the in-field spectral calibration of high-resolution spectrometers, based on the spectral matching algorithm proposed by Meroni et al. (2010)
+**NOTE**  If you encounter any problems, you can report it in the "issues" page of this repository,
+However, since the software is not currently actively manteined, we can't guarantee we'll be able to help.
 
 Installation Instructions: 
 --------------------------
