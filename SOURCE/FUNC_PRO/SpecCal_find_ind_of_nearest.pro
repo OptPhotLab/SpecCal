@@ -27,7 +27,7 @@
 ; 
 ; ------------------------------------------------------------------------------
 ; Copyright Lorenzo Busetto and Michele Meroni, 2010
-; 
+; License: GPL-3
 ;   This file is part of SpecCal.
 ;
 ;    SpecCal is distributed as free software. Redistribution and use in source and binary forms for non-commercial purposes,
