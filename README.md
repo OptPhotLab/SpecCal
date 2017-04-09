@@ -13,13 +13,13 @@ This distribution of SpecCal includes both the source code, and a Microsoft Wind
 
 SpecCal can be installed by following the following simple steps: 
 
-1) Decompress the archive "SpecCal_v12.zip" (Please be sure that the option specifying to extract the full paths of the files is selected within the decompressing software of choice (e.g., WINZIP, WINRAR, etc.)
+1) Clone the repository on your PC (**OR** Download and decompress the archive "SpecCal_v12.zip" on a folder of your choosing - Please be sure that the option specifying to extract the full paths of the files is selected within the decompressing software of choice (e.g., WINZIP, WINRAR, etc.))
 
 2) Check the installation folder. After the decompression, the following sub-folders should have been created in the selected installation folder:
 
 \EXAMPLE_INPUT_DATA; \EXAMPLE_OUTPUT_DATA; \HELP; \LOG_FILES; \MODTRAN_FILES; \OUTPUTS; \PREVIOUS; \SOURCE; \TARGET_REFLECTANCES
 
-3) Run the software by doubl-clicking on the “SpecCal_12.exe” file within the main installation folder. When the IDL Virtual Machine splash screen appears, click on “Continue”, and the SpecCal GUI should appear
+3) Run the software by double-clicking on the “SpecCal_12.exe” file within the main installation folder. When the IDL Virtual Machine splash screen appears, click on “Continue”, and the SpecCal GUI should appear
 
 
 For further info regarding the installation process, please consult the SpecCal User's Guide that can be found in the "\HELP" subfolder.
