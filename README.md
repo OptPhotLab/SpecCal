@@ -32,4 +32,4 @@ Michele Meroni, PhD
 
 License:
 --------
-
+GPL-3.0
