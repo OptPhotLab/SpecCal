@@ -1,0 +1,16 @@
+---------------------------
+SpecCal Processing
+---------------------------
+
+Input File: D:\documenti_lorenzo\Articoli\Miei+Lab\provvisori\Computer and geosciences 2010\software\SpecCal12\EXAMPLE_INPUT_DATA\OO_Radiance.csv
+MODTRAN Simulation File: D:\documenti_lorenzo\Articoli\Miei+Lab\provvisori\Computer and geosciences 2010\software\SpecCal12\MODTRAN_FILES\SpecCal_modtran4sim350-1000.csv
+Output File: D:\documenti_lorenzo\Articoli\Miei+Lab\provvisori\Computer and geosciences 2010\software\SpecCal12\OUTPUTS\OO_Radiance_report.csv
+---------------------------
+
+Processing Range  1    of: 7    Spectral Interval:        379.00000       399.00000
+Processing Range  2    of: 7    Spectral Interval:        427.00000       441.00000
+Processing Range  3    of: 7    Spectral Interval:        513.00000       521.00000
+Processing Range  4    of: 7    Spectral Interval:        653.00000       659.00000
+Processing Range  5    of: 7    Spectral Interval:        713.00000       737.00000
+Processing Range  6    of: 7    Spectral Interval:        806.00000       843.00000
+Processing Range  7    of: 7    Spectral Interval:        922.00000       982.00000

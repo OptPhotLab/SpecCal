@@ -1,0 +1,3 @@
+Numerical Recipes(tm) is a trademark of Numerical Recipes Software. Numerical Recipes routines are used by permission. 
+
+

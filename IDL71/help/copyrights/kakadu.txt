@@ -1,0 +1,6 @@
+Portions of this software were developed using Unisearch's Kakadu software,
+for which ITT has a commercial license. Kakadu Software. Copyright » 2001.
+The University of New South Wales, UNSW, Sydney NSW 2052, Australia, and
+Unisearch Ltd, Australia. 
+
+

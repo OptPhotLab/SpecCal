@@ -1,0 +1,2 @@
+IMSL is a trademark of Visual Numerics, Inc.
+Copyright (c) 1970-2006 by Visual Numerics, Inc. All Rights Reserved. 

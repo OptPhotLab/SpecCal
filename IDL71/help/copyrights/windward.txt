@@ -1,0 +1,3 @@
+GRG2(tm) is a trademark of Windward Technologies, Inc.
+The GRG2 software for nonlinear optimization is used by permission. 
+

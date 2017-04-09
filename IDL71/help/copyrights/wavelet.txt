@@ -1,0 +1,2 @@
+IDL Wavelet Toolkit Copyright (c) 2002, Christopher Torrence. 
+

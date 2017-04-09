@@ -1,0 +1,3947 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN" "http://www.w3.org/MarkUp/Wilbur/HTML32.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.5.1556">
+    <meta name="RSISYM" content="True">
+    <meta name="TEMPLATEBASE" content="DynHTML">
+    <meta name="LASTUPDATED" content="10/21/09 15:24:10">
+    <title>IDL 7.1.2 Release Notes</title>
+
+    <link REL="stylesheet" HREF="http://www.ittvis.com/templates/ittvis.css">
+    <style>
+       ol       { color:#666666; }
+       ol li    { color:#666666; }
+       th .pCellBody .cBold { color:white; }
+       td, th {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 5px;
+       }
+       td {
+          background-color:#E2E2E2;
+       }
+       tr[bgcolor="White"] td {
+          background-color:#F2F2F2;
+          padding-bottom:10px;
+       }
+       .cSymbol { font-size:larger; }
+       .cCodeItalic { font-style:italic; }
+       .pPreformatted { color:#666666; }
+       .pCellBody
+       {
+           FONT-SIZE: 11px;
+           COLOR: #666666;
+           LINE-HEIGHT: normal;
+           FONT-FAMILY: 'Microsoft Sans Serif', 'MS Sans Serif', Arial
+       }
+       h4
+       {
+           FONT-SIZE: 12px;
+           COLOR: #666666;
+           FONT-FAMILY: 'Microsoft Sans Serif', 'MS Sans Serif', Arial
+       }
+
+    </style>
+
+  </head>
+
+  <body text="#000000" bgcolor="#FFFFFF">
+
+
+
+<a name="wp1051987"> </a><h1 class="pManualTitle">
+IDL 7.1.2 Release Notes
+</h1>  
+
+<a name="wp1051988"> </a><p class="pBody">
+The IDL 7.1.2 release addresses several issues found in the IDL 7.1 release. Aside from these fixes, there are no new features in IDL 7.1.2 beyond those present in IDL 7.1.
+</p>  
+
+<a name="wp1051990"> </a><br />
+<table border="0" bgcolor="#E2E2E2" cellpadding="5" width="98%">
+   <tr><td><b>Note</b><br />
+   Visit <a href="http://www.ittvis.com/IDL">www.ittvis.com/IDL</a> for additional information and late-breaking release notes. </td></tr>
+</table>
+<br />  
+
+
+<a name="wp1043346"> </a><p class="pBody">
+The information found in these release notes is separated into the following sections:
+</p>  
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1078204"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1078197">Problems Corrected in IDL 7.1.2</a></li></div>  
+
+<a name="wp1071096"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1071009">Problems Corrected in IDL 7.1.1</a></li></div>  
+
+<a name="wp1043350"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1036856">New Features in IDL 7.1</a></li></div>  
+
+<a name="wp1052220"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1067487">Backward-Compatibility Issues in IDL 7.1</a></li></div>  
+
+<a name="wp1052106"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1048976">Problems Corrected in IDL 7.1</a></li></div>  
+
+<a name="wp1044055"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1039266">Known Problems in IDL 7.1</a></li></div>  
+
+<a name="wp1054127"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1060795">Hardware and Operating System Requirements</a></li></div>  
+
+<a name="wp1054132"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1054278">Feature Support by Operating System</a></li></div>  
+
+</ul></div>
+<a name="wp1036853"> </a><p class="pBody">
+ID numbers are included where applicable to allow ITT Visual Information Solutions to respond to inquiries more easily.
+</p>  
+
+<a name="wp1078197"> </a><h2 class="pHeading2">
+Problems Corrected in IDL 7.1.2
+</h2>  
+
+
+<a name="wp1078194"> </a><p class="pBody">
+IDL 7.1.2 incorporates all of the solutions included in the IDL 7.1.1 release (see <a href="idl_release_notes.html#wp1071009">Problems Corrected in IDL 7.1.1</a>). In addition, IDL 7.1.2 fixes the following problems:
+</p>  
+
+
+
+                                                  <a name="wp1078222"> </a><h3 class="pHeading3">
+All Platforms
+</h3>  
+
+<a name="wp1078252"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1078225table1078223">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1078225"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1078227"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1078229"> </a><div class="pCellBody">
+<b class="cBold"> 56369 </b>
+</div>  
+
+</td>
+    <td><a name="wp1078231"> </a><div class="pCellBody">
+<b class="cBold">Workbench quits unexpectedly after reading data file </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1078233"> </a><div class="pCellBody">
+A change in IDL 7.1 affected the way the IDL Workbench behaved when reading data from a file. As a result, the Workbench would sometimes freeze and then exit after reading data using IDL's standard file input/output routines. This has been corrected in IDL 7.1.2.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+
+
+                                                  <a name="wp1078333"> </a><h3 class="pHeading3">
+Windows Platforms
+</h3>  
+
+<a name="wp1078380"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1078336table1078334">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1078336"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1078338"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1078398"> </a><div class="pCellBody">
+<b class="cBold">57077<br />57244</b>
+</div>  
+
+</td>
+    <td><a name="wp1078400"> </a><div class="pCellBody">
+<b class="cBold">Problems with file paths containing extended ASCII characters</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1078402"> </a><div class="pCellBody">
+A change in IDL 7.1 affected the way IDL interprets strings containing multibyte and extended ASCII characters. While this change allowed paths containing multibyte characters to be interpreted correctly by IDL, IDL widgets, and the IDL Workbench, it caused problems in the interpretation of characters from the extended ASCII character set.
+</div>  
+
+<a name="wp1078403"> </a><div class="pCellBody">
+In IDL 7.1.2, these problems are resolved, and both multibyte and extended ASCII characters are interpreted properly by IDL routines. Strings containing multibyte and extended ASCII characters <i>may not</i> display properly in IDL Workbench views such as the Console view or the Variables view.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1078219"> </a><p class="pBody">
+
+</p>  
+
+<a name="wp1071009"> </a><h2 class="pHeading2">
+Problems Corrected in IDL 7.1.1
+</h2>  
+
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1071013"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1071027">All Platforms</a></li></div>  
+
+<a name="wp1071017"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1070988">Windows Platforms</a></li></div>  
+
+<a name="wp1073472"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1071069">UNIX Platforms</a></li></div>  
+
+<a name="wp1073479"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1073446">Macintosh Platforms</a></li></div>  
+
+</ul></div>
+
+
+                                                  <a name="wp1071027"> </a><h3 class="pHeading3">
+All Platforms
+</h3>  
+
+<a name="wp1071121"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1072849table1071108">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1072849"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1072851"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1072853"> </a><div class="pCellBody">
+<b class="cBold">56049</b>
+</div>  
+
+</td>
+    <td><a name="wp1072855"> </a><div class="pCellBody">
+<b class="cBold">GET_DECOMPOSED keyword not working for PostScript device </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1072857"> </a><div class="pCellBody">
+IDL 7.1 introduced the ability to create TrueColor plots in the PostScript (PS) device by setting the DECOMPOSED keyword to the DEVICE procedure. The ability to retrieve the state the decomposed color setting using the GET_DECOMPOSED keyword to the DEVICE procedure was documented, but not implemented in IDL 7.1. In IDL 7.1.1, you can use the GET_DECOMPOSED keyword with the PostScript device to retrieve the state of the decomposed color setting.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1072861"> </a><div class="pCellBody">
+<b class="cBold">56067</b>
+</div>  
+
+</td>
+    <td><a name="wp1072863"> </a><div class="pCellBody">
+<b class="cBold">DIALOG_PICKFILE cannot handle Unicode characters in filenames </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1072865"> </a><div class="pCellBody">
+The DIALOG_PICKFILE function has been enhanced to properly handle UTF-8 and Unicode characters in filenames returned from the native operating system.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1072869"> </a><div class="pCellBody">
+<b class="cBold">56160</b>
+</div>  
+
+</td>
+    <td><a name="wp1072871"> </a><div class="pCellBody">
+<b class="cBold">IDL crashes on Exit after repeated load of DLMs and session reset</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1072873"> </a><div class="pCellBody">
+In IDL 7.1, if a dynamically loadable module (DLM) was loaded and the IDL session was reset using the .FULL_RESET_SESSION executive command, IDL would crash when exiting the session. This has been corrected in IDL 7.1.1.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+
+
+                                                  <a name="wp1070988"> </a><h3 class="pHeading3">
+Windows Platforms
+</h3>  
+
+<a name="wp1071145"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1071134table1071132">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1071134"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1071136"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1071138"> </a><div class="pCellBody">
+<b class="cBold">55883<br />56382</b>
+</div>  
+
+</td>
+    <td><a name="wp1071140"> </a><div class="pCellBody">
+<b class="cBold"> WIDGET_TAB labels missing or drawn incorrectly</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1071142"> </a><div class="pCellBody">
+IDL 7.1 enabled the use of Windows &quot;styles,&quot; which allow IDL widgets to respect the user interface theme settings of the Windows computer on which IDL is running. Unfortunately, Windows styles do not directly support the placement of widget tabs on the sides or bottom of the widget, as specified by the LOCATION keyword to the WIDGET_TAB function. IDL 7.1.1 allows tabs to be drawn correctly in all positions.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1071218"> </a><div class="pCellBody">
+<b class="cBold">56008</b>
+</div>  
+
+</td>
+    <td><a name="wp1071220"> </a><div class="pCellBody">
+<b class="cBold">IDL crashes on Tree widget drop event</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1071214"> </a><div class="pCellBody">
+IDL 7.1 would crash when dragging from a node of a WIDGET_TREE widget to the drawable area of a WIDGET_DRAW widget. This has been corrected in IDL 7.1.1.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1071270"> </a><div class="pCellBody">
+<b class="cBold">56158</b>
+</div>  
+
+</td>
+    <td><a name="wp1071272"> </a><div class="pCellBody">
+<b class="cBold"> Slider drag events not working</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1071266"> </a><div class="pCellBody">
+IDL 7.1 enabled the use of Windows &quot;styles,&quot; which allow IDL widgets to respect the user interface theme settings of the Windows computer on which IDL is running. This change revealed a problem in which slider drag events were not properly generated when Windows styles were in use. This has been corrected in IDL 7.1.1.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1074109"> </a><div class="pCellBody">
+<b class="cBold">56545</b>
+</div>  
+
+</td>
+    <td><a name="wp1074111"> </a><div class="pCellBody">
+<b class="cBold">FILE_SEARCH fails with UTF8 directory names and MARK_DIRECTORY</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1074105"> </a><div class="pCellBody">
+In IDL 7.1, the FILE_SEARCH function would erroneously report no matches when a directory name contained UTF-8 characters and the MARK_DIRECTORY keyword was set. This has been corrected in IDL 7.1.1.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1075332"> </a><div class="pCellBody">
+<b class="cBold">56558<br />56575</b>
+</div>  
+
+</td>
+    <td><a name="wp1075334"> </a><div class="pCellBody">
+<b class="cBold">Problems opening files whose paths contain multibyte characters</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1075328"> </a><div class="pCellBody">
+When IDL attempts to open a file or use a path name that contains characters not included in the UTF-8 character set, it will now attempt to interpret the name using the local machine's default character set. In general, this allows IDL to open files whose paths include multibyte characters.
+</div>  
+
+<a name="wp1075355"> </a><div class="pCellBody">
+Some third-party file format libraries included with IDL may still experience problems. Libraries that handle file operations internally (as opposed to requesting that IDL perform the file operation) still may not be able to interpret some multibyte character strings created on a Windows system running in a different language. TIFF, JPEG2000, and the Scientific Data Formats are among the affected file format libraries.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+
+
+                                                  <a name="wp1071069"> </a><h3 class="pHeading3">
+UNIX Platforms
+</h3>  
+
+<a name="wp1071193"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1071182table1071180">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1071182"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1071184"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1071186"> </a><div class="pCellBody">
+<b class="cBold">56520</b>
+</div>  
+
+</td>
+    <td><a name="wp1071188"> </a><div class="pCellBody">
+<b class="cBold">DIALOG_PICKFILE with DEFAULT_EXTENSION and scalar FILTER</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1071400"> </a><div class="pCellBody">
+In IDL 7.1 on UNIX platforms, using the DIALOG_PICKFILE function and specifying a default extension along with a scalar filename filter would cause IDL to exit. Specifying an array of strings for the filename filter (even a single-element string array) avoided the problem. This has been corrected in IDL 7.1.1.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1073445"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1073446"> </a><h3 class="pHeading3">
+Macintosh Platforms
+</h3>  
+
+<a name="wp1073461"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1073449table1073447">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1073449"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1073451"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1073453"> </a><div class="pCellBody">
+<b class="cBold">56157</b>
+</div>  
+
+</td>
+    <td><a name="wp1073455"> </a><div class="pCellBody">
+<b class="cBold">Workbench losing focus when manipulating files in the Editor window</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1073457"> </a><div class="pCellBody">
+In IDL 7.1 on some Macintosh OS X systems, the IDL Workbench editor would intermittently become unresponsive. This problem was corrected in the IDL 7.1.1 Workbench updated, released in June 2009; the same fix is included in the full IDL 7.1.1 release.
+</div>  
+
+<a name="wp1073458"> </a><div class="pCellBody">
+Note - If you have already installed the IDL 7.1.1 Workbench update and are not experiencing any of the other problems addressed by the IDL 7.1.1 release, you do not need to update your IDL installation to IDL 7.1.1.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1073439"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1036856"> </a><h2 class="pHeading2">
+New Features in IDL 7.1
+</h2>  
+
+
+<a name="wp1067483"> </a><p class="pBody">
+For information on new features in this release, see the What&#39;s New in IDL 7.1 manual. What&#39;s New is included in the IDL online help system under the heading &quot;About IDL&quot;.
+</p>  
+
+<a name="wp1067485"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1067487"> </a><h2 class="pHeading2">
+Backward-Compatibility Issues in IDL 7.1
+</h2>  
+
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1041250"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1041247">All Platforms</a></li></div>  
+
+<a name="wp1045728"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1048934">UNIX Platforms</a></li></div>  
+
+</ul></div>
+
+
+                                                  <a name="wp1041247"> </a><h3 class="pHeading3">
+All Platforms
+</h3>  
+
+<a name="wp1043786"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1043775table1043773">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1043775"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1043777"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1056834"> </a><div class="pCellBody">
+<b class="cBold">n/a</b>
+</div>  
+
+</td>
+    <td><a name="wp1056836"> </a><div class="pCellBody">
+<b class="cBold">IDL Workspace Migration</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1056838"> </a><div class="pCellBody">
+IDL does not automatically update the IDL workspace between releases. Since the workspace stores data about the views and perspectives used by the IDL Workbench, changes or additions to the IDL Workbench interface require that you choose how to manage your IDL workspace. After upgrading to a new IDL version, you have the following options:
+</div>  
+
+<a name="wp1056901"> </a><div class="pCellBody">
+1.	Create a new workspace for use with the new IDL version. You will need to reset any IDL Workbench preferences you may have set in the old version.
+</div>  
+
+<a name="wp1056862"> </a><div class="pCellBody">
+2.	Continue using the old workspace without modification. New views and perspectives may not be available.
+</div>  
+
+<a name="wp1056863"> </a><div class="pCellBody">
+3.	Use the <b style="font-weight: bold" class="cBold">Window&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">Open Perspective...&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">Visualize</b> menu option to update the workspace to see the new views and perspectives.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1056817"> </a><div class="pCellBody">
+<b class="cBold">n/a</b>
+</div>  
+
+</td>
+    <td><a name="wp1056819"> </a><div class="pCellBody">
+<b class="cBold">IDL Core Preference Migration</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1056824"> </a><div class="pCellBody">
+IDL does not automatically migrate IDL core preferences between releases. After upgrading IDL to a new version, you have two options:
+</div>  
+
+<a name="wp1056843"> </a><div class="pCellBody">
+1.	Re-set any IDL core preferences you wish to use with the new IDL version by hand, either using the Preferences dialog or the PREF_SET routine.
+</div>  
+
+<a name="wp1056850"> </a><div class="pCellBody">
+2.	Run the PREF_MIGRATE routine from the IDL command line to migrate preferences to the new IDL version.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1069527"> </a><div class="pCellBody">
+<b class="cBold">n/a</b>
+</div>  
+
+</td>
+    <td><a name="wp1069529"> </a><div class="pCellBody">
+<b class="cBold">Third-party IDL Workbench Plug-ins are not Present After Upgrade</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1069531"> </a><div class="pCellBody">
+IDL 7.1 is installed in a location separate from any previous IDL installation. As a result, if you have installed third-party IDL Workbench plug-ins in your existing IDL installation, they will not be available after the IDL 7.1 upgrade is installed. You will need to reinstall the third-party plug-ins to use them with IDL 7.1.
+</div>  
+
+<a name="wp1069532"> </a><div class="pCellBody">
+Additionally, if you install IDL 7.1 and then start the IDL Workbench using the same workspace used with the older IDL version, you may see an error stating that the workbench layout could not be restored. This error reflects the fact that the third-party plug-ins are no longer available to the IDL Workbench. The error will appear only the first time you start the IDL Workbench, and only if you are using the same workspace as used with the previous IDL version.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057825"> </a><div class="pCellBody">
+<b class="cBold">54641</b>
+</div>  
+
+</td>
+    <td><a name="wp1057880"> </a><div class="pCellBody">
+<b class="cBold">IDL Localization and LOCALE_GET</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057843"> </a><div class="pCellBody">
+In previous versions of IDL on Unix platforms, the LOCALE_GET function would always return &quot;C&quot;, regardless of the user's environment settings. Now, on all platforms, LOCALE_GET will return the value for the LC_CTYPE locale category.
+</div>  
+
+<a name="wp1059589"> </a><div class="pCellBody">
+Note - IDL continues to use the &quot;C&quot; locale internally, regardless of the user's environment setting.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1043779"> </a><div class="pCellBody">
+<b class="cBold">44008</b>
+</div>  
+
+</td>
+    <td><a name="wp1043781"> </a><div class="pCellBody">
+<b class="cBold">Export Bridges: IDL Error State and Successful Method Return</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047004"> </a><div class="pCellBody">
+If your client creates an instance of a COM/Java Export Bridge wrapper object, and calls an object method whose code throws an error, the wrapped method will return an error unless the referenced code resets the internal IDL error state.
+</div>  
+
+<a name="wp1047005"> </a><div class="pCellBody">
+In this circumstance, it is best if the wrapped code catches its own error, handles it, and resets the IDL error state. You can reset the IDL error state in the error handling catch block by calling the MESSAGE procedure:
+</div>  
+
+<a name="wp1047006"> </a><div class="pCellBody">
+<code class="cCode">MESSAGE, /RESET</code>
+</div>  
+
+<a name="wp1043783"> </a><div class="pCellBody">
+This procedure call sets the !ERROR_STATE system variable back to the &quot;success&quot; state. 
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1069500"> </a><div class="pCellBody">
+<b class="cBold">48917<br />49373<br />55393</b>
+</div>  
+
+</td>
+    <td><a name="wp1069502"> </a><div class="pCellBody">
+<b class="cBold">Breakpoints in Files Opened via Links, Shortcuts, or Alternate Paths</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1069504"> </a><div class="pCellBody">
+To improve performance, IDL always compiles the first version of a file it finds in its path. If you open a file in the editor and set a breakpoint, then compile from a version of the same file with a different path, IDL will not assume that the two files are the same. As a result, IDL will not stop at the breakpoint set in the second file.
+</div>  
+
+<a name="wp1069517"> </a><div class="pCellBody">
+Alternate paths to the same file can be constructed via UNIX links, Windows shortcuts, mapped drives, or UNC paths.
+</div>  
+
+<a name="wp1069505"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Make sure that the full path to the file in which you set the breakpoint is the same as the full path to the compiled file. If you use the IDL Workbench, compiling using the Workbench menus or toolbars will ensure that the same path is used for compilation and debugging.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047250"> </a><div class="pCellBody">
+<b class="cBold">49528</b>
+</div>  
+
+</td>
+    <td><a name="wp1047252"> </a><div class="pCellBody">
+<b class="cBold">!PATH Seems to Change on its own</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047267"> </a><div class="pCellBody">
+By default, the IDL Workbench manages the value of !PATH so that files in your project directories are found. The consequences of this automatic management may be unexpected, especially if you also modify the value of !PATH manually. See &quot;IDL Path Management&quot; in the IDL online help system for a detailed explanation.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053205"> </a><div class="pCellBody">
+<b class="cBold">51757</b>
+</div>  
+
+</td>
+    <td><a name="wp1053207"> </a><div class="pCellBody">
+<b class="cBold">UNSHARP_MASK Gaussian filter definition</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053201"> </a><div class="pCellBody">
+In IDL versions prior to 7.1, the UNSHARP_MASK routine defined the Gaussian filter as:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">ceil(2 * RADIUS)/2 * 2 +1  
+&#160;  
+</pre>
+<a name="wp1053211"> </a><div class="pCellBody">
+In IDL 7.1, the definition has been changed to: 
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">ceil(3 * RADIUS)/2 * 2 +1  
+&#160;  
+</pre>
+<a name="wp1053217"> </a><div class="pCellBody">
+This could result in inconsistent results between IDL 7.0 and 7.1.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053053"> </a><div class="pCellBody">
+<b class="cBold">52055</b>
+</div>  
+
+</td>
+    <td><a name="wp1053055"> </a><div class="pCellBody">
+<b class="cBold">Signed integers returned by READ_TIFF</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053049"> </a><div class="pCellBody">
+<b style="font-weight: normal" class="cBold">In IDL versions prior to 7.0.6, the READ_TIFF routine incorrectly returned signed 32-bit integers for TIFF files that contained unsigned 32-bit integers. As of version 7.0.6, READ_TIFF correctly returns unsigned 32-bit integers.</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053183"> </a><div class="pCellBody">
+<b class="cBold">52363</b>
+</div>  
+
+</td>
+    <td><a name="wp1053185"> </a><div class="pCellBody">
+<b class="cBold">Change in rendered font size of IDLgrText objects</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053187"> </a><div class="pCellBody">
+<b style="font-weight: normal" class="cBold">IDL 7.0.6 updates the library that renders IDLgrText objects. The new library corrects several long-standing errors in rendering the text strings; the result is that rendered text may appear slightly smaller than in previous releases.</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1049738"> </a><div class="pCellBody">
+<b class="cBold">n/a</b>
+</div>  
+
+</td>
+    <td><a name="wp1049740"> </a><div class="pCellBody">
+<b class="cBold">New Process for Debugging Shared Library Code</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1049792"> </a><div class="pCellBody">
+Beginning with IDL 7.0, when the IDL Workbench is running there are two processes to which you can connect your debugger: the IDL Workbench (<code class="cCode">idlde</code>) and the IDL out-of-process server (<code class="cCode">idl_opserver</code>). The <code class="cCode">idl_opserver</code> is the IDL process that runs the IDL interpreter and loads shared libraries (DLMs). To debug your shared library code, you need to attach your debugger (gdb, Visual Studio, <i>etc</i>.) to the <code class="cCode">idl_opserver</code> process. On Windows, using Visual Studio, you can select <b class="cBold">Attach to Process</b> and choose the <code class="cCode">idl_opserver.exe</code> process. On Unix, using <code class="cCode">gdb</code> or <code class="cCode">dbx</code>, you can use the <code class="cCode">ps</code> command to retrieve the ID of the <code class="cCode">idl_opserver</code> process, and then attach your debugger to that process ID.
+</div>  
+
+<a name="wp1049825"> </a><div class="pCellBody">
+If you are <i>not</i> using the IDL Workbench, continue to connect to the <code class="cCode">idl</code> process.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1040130"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1048934"> </a><h3 class="pHeading3">
+UNIX Platforms
+</h3>  
+
+<a name="wp1048967"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1048937table1048935">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1048937"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1048939"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1060537"> </a><div class="pCellBody">
+<b class="cBold">55315</b>
+</div>  
+
+</td>
+    <td><a name="wp1060539"> </a><div class="pCellBody">
+<b class="cBold">Tool Palette and IDL Help Can Run Slowly or Run Out of Memory</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1060541"> </a><div class="pCellBody">
+On some older Linux and Solaris Sparc systems, views in the IDL Workbench Visualize perspective and the IDL help system may appear to run slowly. IDL may also generate out-of-memory errors.
+</div>  
+
+<a name="wp1060559"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> These problems appear to be related to the XULRunner library, which is used by the IDL Workbench and the IDL help system to display rich content. To disable IDL's use of the XULRunner library, set the IDL_NO_XULRUNNER environment variable before running IDL. (The value of the environment variable is not important, only that it is set or unset.) For shells using C-shell syntax, issue the following commands:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">setenv IDL_NO_XULRUNNER 1  
+idlde  
+</pre>
+<a name="wp1060565"> </a><div class="pCellBody">
+For shells using Bourne shell syntax, issue the following commands:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">IDL_NO_XULRUNNER=1 ; export IDL_NO_XULRUNNER  
+idlde  
+</pre>
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1048979"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1048976"> </a><h2 class="pHeading2">
+Problems Corrected in IDL 7.1
+</h2>  
+
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1052760"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1038558">All Platforms</a></li></div>  
+
+<a name="wp1066158"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1066164">Windows Platforms</a></li></div>  
+
+<a name="wp1050006"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1049893">UNIX Platforms</a>&#160;</li></div>  
+
+<a name="wp1048822"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1049971">Macintosh Platforms</a></li></div>  
+
+</ul></div>
+
+
+                                                  <a name="wp1038558"> </a><h3 class="pHeading3">
+All Platforms
+</h3>  
+
+<a name="wp1052751"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1052740table1052738">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1052740"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1052742"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1066065"> </a><div class="pCellBody">
+<b class="cBold">48165</b>
+</div>  
+
+</td>
+    <td><a name="wp1066067"> </a><div class="pCellBody">
+<b class="cBold"> Deleting Linked Folders Does Not Update !path or IDL_PATH</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1066060"> </a><div class="pCellBody">
+When a linked folder is deleted from a project, the folder is now correctly removed from the <code class="cCode">!path</code> system variable and the <code class="cCode">IDL_PATH</code> system preference.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053057"> </a><div class="pCellBody">
+<b class="cBold">48331<br />49528<br />49685<br />49860<br />51634<br />51635<br />51636<br />51648<br />51722</b>
+</div>  
+
+</td>
+    <td><a name="wp1053059"> </a><div class="pCellBody">
+<b class="cBold">Problems with Automatic Path Management in the IDL Workbench</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053061"> </a><div class="pCellBody">
+The IDL Workbench 7.0.3 update modified the way the IDL Workbench manages IDL's search path for managed projects. The key changes are:
+</div>  
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1053062"> </a><div class="pSmartList1"><li>The IDL Workbench no longer changes the value of the IDL_PATH preference.</li></div>  
+
+<a name="wp1053063"> </a><div class="pSmartList1"><li>The IDL Workbench no longer overwrites the value of the !PATH system variable. If you change the value of the !PATH system variable, the IDL Workbench will <b class="cBold">add</b> entries for managed projects at the end of the path specification as described below, but it will not remove any entries.</li></div>  
+
+<a name="wp1053064"> </a><div class="pSmartList1"><li>If a workbench project has the <b class="cBold">Update IDL path when project is opened or closed</b> preference set, the project is considered to be a <i>managed project</i>. For managed projects:</li></div>  
+
+<a name="wp1053065"> </a><p class="pIndentedRelative">If the managed project is open, the IDL Workbench will ensure that the project directory is included in the list of directories specified by the !PATH system variable. If the directory is not present in !PATH, it will be added <i>at the end</i> of the path specification.</p>  
+<a name="wp1053066"> </a><p class="pIndentedRelative">If the managed project is closed, the IDL Workbench will remove the project directory from the list of directories specified by the !PATH system variable <i>unless</i> the project directory is also specified by the IDL_PATH preference.</p>  
+</ul></div>
+<a name="wp1055266"> </a><div class="pCellBody">
+For details, see &quot;IDL Path Management&quot; in the IDL online help.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052825"> </a><div class="pCellBody">
+<b class="cBold">49115</b>
+</div>  
+
+</td>
+    <td><a name="wp1052827"> </a><div class="pCellBody">
+<b class="cBold">WSHOW does not position graphics window in front of IDL Workbench</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052821"> </a><div class="pCellBody">
+If a graphics window is obscured by the IDL Workbench, executing the WSHOW command now correctly brings the window in front of the Workbench.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053080"> </a><div class="pCellBody">
+<b class="cBold">49779</b>
+</div>  
+
+</td>
+    <td><a name="wp1053082"> </a><div class="pCellBody">
+<b class="cBold">Undefined variables or other runtime errors do not trigger the Debug perspective switch</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053084"> </a><div class="pCellBody">
+Running an IDL program that contains an undefined variable generates the correct error in the Console view, and now correctly triggers the &quot;perspective switch&quot; dialog.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053088"> </a><div class="pCellBody">
+ <b class="cBold">49897</b>
+</div>  
+
+</td>
+    <td><a name="wp1053090"> </a><div class="pCellBody">
+<b class="cBold">Some items on the</b> File<b style="font-weight: bold" class="cBold">&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b>New<b class="cBold"> menu are missing in the Debug perspective</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053092"> </a><div class="pCellBody">
+All appropriate menu items are now shown on the <b style="font-weight: bold" class="cBold">File&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">New</b> menu when the IDL Workbench is in the Debug perspective.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053096"> </a><div class="pCellBody">
+<b class="cBold">49898</b>
+</div>  
+
+</td>
+    <td><a name="wp1053098"> </a><div class="pCellBody">
+<b class="cBold"> Executing an example from the IDL help system fails if using Safari</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053100"> </a><div class="pCellBody">
+IDL allows the user to execute blocks of code from within the help system. On Macintosh systems using the Safari browser to display help content, code blocks containing more than a single line now execute correctly.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057789"> </a><div class="pCellBody">
+<b class="cBold">50199</b>
+</div>  
+
+</td>
+    <td><a name="wp1057791"> </a><div class="pCellBody">
+<b class="cBold">Unable to correctly paste text into the command line with text already present</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057785"> </a><div class="pCellBody">
+If you paste text onto the end of text that already exists in the command line, IDL now correctly executes both the original text and the new text. Additionally, you can now drag text to the command line and specify the insertion point of the new text.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053112"> </a><div class="pCellBody">
+<b class="cBold">50209</b>
+</div>  
+
+<a name="wp1053113"> </a><div class="pCellBody">
+<b class="cBold">50210</b>
+</div>  
+
+<a name="wp1053114"> </a><div class="pCellBody">
+<b class="cBold">50212</b>
+</div>  
+
+</td>
+    <td><a name="wp1053116"> </a><div class="pCellBody">
+<b class="cBold">When building a main project that includes references to external projects, the final .sav file does not include the compiled routines from the external projects</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053118"> </a><div class="pCellBody">
+In several situations, building a project with external project references would result in a .<code class="cCode">sav</code> file that did not contain the routines from the referenced projects.
+</div>  
+
+<a name="wp1053119"> </a><div class="pCellBody">
+This problem was corrected in IDL 7.0.3. Specifically, the project build process has been changed so that referenced projects are built first, and the compiled code is written to intermediate .<code class="cCode">sav</code> files. The main project restores the referenced project .<code class="cCode">sav</code> files before it compiles its own code, so that the main project .<code class="cCode">sav</code> file contains code from both the main project and from the referenced project .<code class="cCode">sav</code> files.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052817"> </a><div class="pCellBody">
+<b class="cBold">50220</b>
+</div>  
+
+</td>
+    <td><a name="wp1052819"> </a><div class="pCellBody">
+<b class="cBold">INTERPOLATE routine performance slower in IDL 7.0 than in IDL 6.4</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052813"> </a><div class="pCellBody">
+The performance of the INTERPOLATE routine was slower in IDL 7.0 than in IDL 6.4. This was corrected in IDL 7.0.1.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053123"> </a><div class="pCellBody">
+<b class="cBold">50258</b>
+</div>  
+
+</td>
+    <td><a name="wp1053125"> </a><div class="pCellBody">
+<b class="cBold">During a project build, too little status information is sent to the Console view</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053127"> </a><div class="pCellBody">
+Additional status updates are now sent to the Console view during the project build process.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053147"> </a><div class="pCellBody">
+<b class="cBold">50397</b>
+</div>  
+
+</td>
+    <td><a name="wp1053149"> </a><div class="pCellBody">
+<b class="cBold">HEAP_GC Incorrectly Frees Pointers and Objects in Temporary Variables</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053151"> </a><div class="pCellBody">
+The HEAP_GC routine now checks temporary variables for object references and pointers before freeing heap variables,
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052809"> </a><div class="pCellBody">
+<b class="cBold">50408</b>
+</div>  
+
+</td>
+    <td><a name="wp1052811"> </a><div class="pCellBody">
+<b class="cBold">EXIT routine sometimes causes IDL 7.0 Workbench to crash</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052805"> </a><div class="pCellBody">
+In IDL 7.0.0, calling the EXIT routine from a widget program or with the /NO_CONFIRM keyword set would sometimes cause the IDL Workbench to terminate improperly. This was corrected in IDL 7.0.1.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053131"> </a><div class="pCellBody">
+<b class="cBold">50820</b>
+</div>  
+
+</td>
+    <td><a name="wp1053133"> </a><div class="pCellBody">
+<b class="cBold">Keyboard input to an Editor view is disabled after a copy of the view is made with the </b>Window&#160;<b style="font-family: Symbol; font-weight: normal" class="cBold">&#8594;</b>&#160;New Editor<b class="cBold"> command</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053135"> </a><div class="pCellBody">
+If an Editor view is open and active, and you select <b style="font-weight: bold" class="cBold">Window&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">New Editor</b>, a copy of the Editor view is created. If you close the new Editor view, focus returns to the previous Editor view and keyboard input is accepted in that view.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053139"> </a><div class="pCellBody">
+<b class="cBold">50981</b>
+</div>  
+
+</td>
+    <td><a name="wp1053141"> </a><div class="pCellBody">
+<b class="cBold">Some non-English invocations of the IDL Workbench do not recognize the command history recall buffer file</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053143"> </a><div class="pCellBody">
+French and Japanese invocations of the IDL Workbench could not read the <code class="cCode">~/.idl/itt/rbuf/history</code> file. This was corrected in IDL 7.0.3.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057800"> </a><div class="pCellBody">
+<b class="cBold">51068</b>
+</div>  
+
+</td>
+    <td><a name="wp1057802"> </a><div class="pCellBody">
+<b class="cBold"> DEPTH_CUE Keyword of IDLgrVolume Does Not Work as Documented</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057796"> </a><div class="pCellBody">
+Objects for which depth cueing is enabled now correctly fade to the background color, rather than fading to black. In addition, depth cueing now behaves correctly regardless of the value of the ZCLIP property of the IDLgrView object that contains the volume.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1059776"> </a><div class="pCellBody">
+<b class="cBold">51323</b>
+</div>  
+
+</td>
+    <td><a name="wp1059778"> </a><div class="pCellBody">
+<b class="cBold"> 32-bit Limit on Rendered Volumes</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1059772"> </a><div class="pCellBody">
+When IDL runs in 64-bit mode, the IDLgrVolume object can now render volumes that contain up to 2<sup class="cSuperscript">64</sup> voxels. Note that each <i>dimension</i> of the volume is limited to a maximum of 2<sup class="cSuperscript">32</sup> elements.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1053191"> </a><div class="pCellBody">
+<b class="cBold">51514</b>
+</div>  
+
+</td>
+    <td><a name="wp1053193"> </a><div class="pCellBody">
+<b class="cBold">IDL-Java Bridge now Configured Automatically</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1053195"> </a><div class="pCellBody">
+The IDL-Java connectivity bridge is now automatically configured to use the Java Runtime Environment (JRE) included with IDL. If the IDLJAVAB_LIB_LOCATION environment variable is not set when IDL starts, it is set to point to the included JRE. If the IDLJAVAB_LIB_LOCATION environment variable is set when IDL starts the value is not changed.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052801"> </a><div class="pCellBody">
+<b class="cBold">n/a</b>
+</div>  
+
+</td>
+    <td><a name="wp1052803"> </a><div class="pCellBody">
+<b class="cBold">HDF library version update</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052797"> </a><div class="pCellBody">
+IDL 7.1 includes HDF library version 4.2r3. There are no changes to the IDL HDF API as a result of this library upgrade.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052793"> </a><div class="pCellBody">
+<b class="cBold">n/a</b>
+</div>  
+
+</td>
+    <td><a name="wp1052795"> </a><div class="pCellBody">
+<b class="cBold">IDL Workbench: Code Parser Speed Improvement</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052789"> </a><div class="pCellBody">
+The speed of the initial parsing of IDL code in IDL's path was improved in the IDL 7.0.1 release.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1052753"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1052736"> </a><p class="pBody">
+
+</p>  
+
+
+
+                                                  <a name="wp1066164"> </a><h3 class="pHeading3">
+Windows Platforms
+</h3>  
+
+<a name="wp1066178"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1066167table1066165">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1066167"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1066169"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1066564"> </a><div class="pCellBody">
+<b class="cBold">49389</b>
+</div>  
+
+</td>
+    <td><a name="wp1066566"> </a><div class="pCellBody">
+<b class="cBold">Windows and Dialogs opened by IDL Can Display Behind the Workbench</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1066560"> </a><div class="pCellBody">
+Windows are now correctly opened in front of the IDL Workbench.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1066180"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1049893"> </a><h3 class="pHeading3">
+UNIX Platforms
+</h3>  
+
+<a name="wp1049907"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1049896table1049894">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1049896"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1049898"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052783"> </a><div class="pCellBody">
+<b class="cBold">50188</b>
+</div>  
+
+</td>
+    <td><a name="wp1052785"> </a><div class="pCellBody">
+<b class="cBold">WIDGET_TEXT background is white instead of gray on Solaris and Linux</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052779"> </a><div class="pCellBody">
+In IDL 7.0.0, the <code class="cCode">Idl*background</code> and <code class="cCode">Idl*foreground</code> X resource values were inadvertently removed from the <code class="cCode">idl</code> X resource file. This was corrected in IDL 7.0.1.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1049909"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1049971"> </a><h3 class="pHeading3">
+Macintosh Platforms
+</h3>  
+
+<a name="wp1049993"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1049974table1049972">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1049974"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1049976"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1069554"> </a><div class="pCellBody">
+<b class="cBold">47334</b>
+</div>  
+
+</td>
+    <td><a name="wp1069556"> </a><div class="pCellBody">
+<b class="cBold">Java Bridge: Macintosh uses a different version of Java demo_world example </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1069558"> </a><div class="pCellBody">
+A java incompatibility on Macintosh caused the <code class="cCode">demo_world</code> example to work incorrectly. This problem has been corrected.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1066621"> </a><div class="pCellBody">
+<b class="cBold">48280</b>
+</div>  
+
+</td>
+    <td><a name="wp1066623"> </a><div class="pCellBody">
+<b class="cBold">CDF Routines Read Data Incorrectly on Intel-based Macintosh</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1066613"> </a><div class="pCellBody">
+The version of the CDF library included with IDL 7.0 did not correctly adjust for the little-endian byte ordering used by Intel-based Macintoshes. The CDF library version was updated in IDL 7.0.4, and now works correctly on all systems.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1066629"> </a><div class="pCellBody">
+<b class="cBold">49844</b>
+</div>  
+
+</td>
+    <td><a name="wp1066631"> </a><div class="pCellBody">
+<b class="cBold">Creation of Semaphores Fails under Mac OS X 10.5</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1066625"> </a><div class="pCellBody">
+In IDL 7.0, creation of semaphores (using the SEM_CREATE routine) failed under Macintosh OS X 10.5 (Leopard) if semaphore names were longer than 24 characters. This restriction was lifted in IDL 7.0.4.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1069566"> </a><div class="pCellBody">
+<b class="cBold">49849</b>
+</div>  
+
+</td>
+    <td><a name="wp1069568"> </a><div class="pCellBody">
+<b class="cBold">Starting the DICOM Storage Service Displays Numerous Error Messages</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1069570"> </a><div class="pCellBody">
+In previous versions, starting the DICOM Network Storage service displayed numerous error messages in the IDL terminal window. The errors looked like:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">The process has forked and you cannot use this CoreFoundation functionality 
+safely. You MUST exec().  
+Break on 
+__THE_PROCESS_HAS_FORKED_AND_YOU_CANNOT_USE_THIS_COREFOUNDATION_FUNCTIONALITY
+___ YOU_MUST_EXEC__() to debug.P  
+</pre>
+<a name="wp1069574"> </a><div class="pCellBody">
+This behavior was corrected in IDL 7.1
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052773"> </a><div class="pCellBody">
+<b class="cBold">49898</b>
+</div>  
+
+</td>
+    <td><a name="wp1052775"> </a><div class="pCellBody">
+<b class="cBold"> Executing an example from the IDL help system fails if using Safari</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1066723"> </a><div class="pCellBody">
+IDL allows the user to execute blocks of code from within the help system. On Macintosh systems using the Safari browser to display help content, code blocks containing more than a single line now execute correctly.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1052931"> </a><div class="pCellBody">
+<b class="cBold">51198<br />51412</b>
+</div>  
+
+</td>
+    <td><a name="wp1052933"> </a><div class="pCellBody">
+<b class="cBold">CURSOR/RDPIX Procedures not Working Correctly on OS X</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1052927"> </a><div class="pCellBody">
+Due to a problem in Macintosh OS X version 10.5 (Leopard), in IDL 7.0, the CURSOR and RDPIX procedures did not function correctly on machines running that version of the operating system. This problem was corrected in IDL 7.0.4.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1066645"> </a><div class="pCellBody">
+<b class="cBold">51478</b>
+</div>  
+
+</td>
+    <td><a name="wp1066647"> </a><div class="pCellBody">
+<b class="cBold">The </b>Ctrl-Space<b class="cBold"> method of accessing Content Assist does not work on the IDLDoc preferences page on Macintosh platforms</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1066640"> </a><div class="pCellBody">
+For Macintosh platforms, when editing in the Routine Comments and File Comments tabs on the IDLdoc preferences page, typing <b class="cBold">Ctrl</b>-<b class="cBold">Space</b> did not activate Content Assist. This problem has been corrected.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1049927"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1039266"> </a><h2 class="pHeading2">
+Known Problems in IDL 7.1
+</h2>  
+
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1041378"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1039397">All Platforms</a></li></div>  
+
+<a name="wp1041390"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1039371">Windows Platforms</a></li></div>  
+
+<a name="wp1041397"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1039599">UNIX Platforms</a></li></div>  
+
+<a name="wp1041404"> </a><div class="pSmartList1"><li><a href="idl_release_notes.html#wp1039697">Macintosh Platforms</a></li></div>  
+
+</ul></div>
+
+
+                                                  <a name="wp1039397"> </a><h3 class="pHeading3">
+All Platforms
+</h3>  
+
+<a name="wp1039422"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1057905table1039401">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1057905"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1057907"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057920"> </a><div class="pCellBody">
+<b class="cBold">38654</b>
+</div>  
+
+</td>
+    <td><a name="wp1057922"> </a><div class="pCellBody">
+<b class="cBold">MAP_PROJ_INIT with GCTP Projection Corrupts Values Cached by Earlier Map Projection</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057924"> </a><div class="pCellBody">
+If you use the MAP_PROJ_INIT function to generate and save a !MAP structure for use in later calls to other mapping routines, and then call MAP_PROJ_INIT again before using the saved structure, some of the projection values may be corrupted when using a GCTP projection.
+</div>  
+
+<a name="wp1057925"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Perform all actions using the saved !MAP structure before making a subsequent call to MAP_PROJ_INIT.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057929"> </a><div class="pCellBody">
+<b class="cBold">40768</b>
+</div>  
+
+</td>
+    <td><a name="wp1057931"> </a><div class="pCellBody">
+<b class="cBold">Firewall Can Catch Socket Communication between IDL and the Help System</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057933"> </a><div class="pCellBody">
+IDL and its help systems (both the current help viewer and the older IDL Assistant help viewer) communicate via sockets, and some firewalls might question this communication. IDL is not trying to access the Internet; the communication is strictly between IDL and its locally installed help systems. If prompted to allow or deny the communication, you should allow it; otherwise, you will not be able to see or use IDL&#39;s online help. You might need to configure your firewall software to allow the communication.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057937"> </a><div class="pCellBody">
+<b class="cBold">42545</b>
+</div>  
+
+</td>
+    <td><a name="wp1057939"> </a><div class="pCellBody">
+<b class="cBold">WIDGET_TREE Drop Event Can Cause IDL to Crash if an Error Exists in the DRAG_NOTIFY Callback Routine</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057941"> </a><div class="pCellBody">
+A tree widget can be configured to support drag and drop functionality. This functionality includes a callback to either the default callback routine, which provides information about where a node can be dropped, or a callback to a custom callback routine that is specified using the DRAG_NOTIFY keyword. In either case, the parent WIDGET_TREE function calls the child callback routine and the IDL processing focus switches to the callback routine. If there is an error (such as an undefined variable) in the custom callback routine, IDL may freeze or crash since the error halts execution in the child routine and IDL is unable to return to the calling function.
+</div>  
+
+<a name="wp1057942"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>: Handle potential problems in the callback routine by including CATCH statements in the code you are developing. See the documentation topic &quot;Responding to Drag Notifications (Callbacks)&quot; for more information.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057946"> </a><div class="pCellBody">
+<b class="cBold">43054</b>
+</div>  
+
+</td>
+    <td><a name="wp1057948"> </a><div class="pCellBody">
+<b class="cBold">Java Export Bridge: Hardware Rendering Not Supported By All Video Cards</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057950"> </a><div class="pCellBody">
+When running IDL applications through the Java Export Bridge, some video cards on some systems experience problems that prevent them from rendering graphics properly. As a result, the Java Export Bridge creates applications that use IDL's built-in (software) renderer by default. Even systems that use hardware rendering successfully when running IDL itself can experience the problem when running the Java Export Bridge.
+</div>  
+
+<a name="wp1057951"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>: If you know that the target system for your application will display graphics properly using hardware rendering, you can explicitly set the renderer in the Init method for your application. Since a graphical application must inherit (directly or indirectly) from the IDLgrWindow class, you can set the RENDERER property equal to 0 to force the use of hardware (OpenGL) rendering if it is available. Note that the RENDERER property is not exported by the Export Bridge Assistant; the value must be hard-coded in your IDL object code.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057955"> </a><div class="pCellBody">
+<b class="cBold">43116</b>
+</div>  
+
+</td>
+    <td><a name="wp1057957"> </a><div class="pCellBody">
+<b class="cBold">Text Annotations Added During Macro Creation Are Incorrectly Placed or Missing</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057959"> </a><div class="pCellBody">
+The iTools let you create a macro that records the operations that occur within a visualization window. If you add a text annotation during macro recording and close the annotation operation by clicking on the view instead of pressing the Enter key, an additional translation event is added to the macro. This causes the text annotation to be incorrectly placed when you run the macro. 
+</div>  
+
+<a name="wp1057960"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>: Always close the creation of a text annotation by pressing the Enter key (instead of by clicking on the view) when recording a macro in an iTool window.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057981"> </a><div class="pCellBody">
+<b class="cBold">43808</b>
+</div>  
+
+</td>
+    <td><a name="wp1057983"> </a><div class="pCellBody">
+<b class="cBold">Export Bridges: IDL Error Codes May Change Between Releases</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057985"> </a><div class="pCellBody">
+Both the COM and Java Export Bridges allow you to catch and respond to errors generated by IDL. Errors are returned from IDL in the form of error codes, corresponding to the value of the !ERROR_STATE.CODE system variable field.
+</div>  
+
+<a name="wp1057986"> </a><div class="pCellBody">
+The code used to designate a specific IDL error condition can change from one release of IDL to another. As a result, COM or Java code you write that reacts to a specific error code value may behave differently with different IDL releases.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1057990"> </a><div class="pCellBody">
+<b class="cBold">43850</b>
+</div>  
+
+</td>
+    <td><a name="wp1057992"> </a><div class="pCellBody">
+<b class="cBold">Java Export Bridge: Error if Non-Drawable Object Instantiated First</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1057994"> </a><div class="pCellBody">
+If you create a Java application that incorporates <i>both</i> drawable and non-drawable IDL wrapper objects, instantiating the non-drawable object before the drawable object will cause a runtime error that looks something like:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">Exception in thread &quot;main&quot; java.lang.UnsatisfiedLinkError: Native Library 
+<i>path_to_your_AWT_library</i> already loaded in another classloader  
+&#160;  
+</pre>
+<a name="wp1057997"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Create an instance of a drawable wrapper object first. This will initialize the Java export bridge correctly, allowing both drawable and non-drawable wrapper objects to execute properly.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1058010"> </a><div class="pCellBody">
+<b class="cBold">48550</b>
+</div>  
+
+</td>
+    <td><a name="wp1058012"> </a><div class="pCellBody">
+<b class="cBold">The STATUS Keyword for EXIT Does Not Work in IDL Workbench</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1058014"> </a><div class="pCellBody">
+The EXIT procedure quits the IDL Workbench and exits back to the operating system. IDL does not correctly return the exit status set by the STATUS keyword.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1058018"> </a><div class="pCellBody">
+<b class="cBold">49236</b>
+</div>  
+
+</td>
+    <td><a name="wp1058020"> </a><div class="pCellBody">
+<b style="font-weight: bold" class="cBold">Deleting a Project or a Directory Within a Project While the Project Is Open Causes Exceptions when the Workbench</b><span style="font-weight: normal"> </span><b class="cBold">Exits</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1058022"> </a><div class="pCellBody">
+When a project file or a directory within a project is deleted (for example, from Windows Project Explorer), while the project is open may result in a warning message while the Workbench is still running, and an exception on exiting the Workbench.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1058026"> </a><div class="pCellBody">
+<b class="cBold">51318</b>
+</div>  
+
+<a name="wp1058027"> </a><div class="pCellBody">
+<b class="cBold">51320</b>
+</div>  
+
+<a name="wp1058028"> </a><div class="pCellBody">
+<b class="cBold">51322</b>
+</div>  
+
+</td>
+    <td><a name="wp1058030"> </a><div class="pCellBody">
+<b style="font-weight: bold" class="cBold">Formatter preferences for keywords, system variables, and structure and class names are ignored by the Source&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">Format command</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1058032"> </a><div class="pCellBody">
+The keyword, system variable, and structure and class name formatting preferences set on the <b style="font-weight: bold" class="cBold">IDL&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">Formatter</b> preference page are not applied when the code is highlighted and the <b style="font-weight: bold" class="cBold">Source&#160;</b>&#8594;<b style="font-weight: normal" class="cBold">&#160;</b><b style="font-weight: bold" class="cBold">Format</b> command is selected.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1068672"> </a><div class="pCellBody">
+<b class="cBold">55550</b>
+</div>  
+
+</td>
+    <td><a name="wp1068674"> </a><div class="pCellBody">
+<b class="cBold">Breakpoints Stop Working when Debug View Not Present</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1068667"> </a><div class="pCellBody">
+The Debug view must be present in the IDL Workbench to use breakpoints. This is a limitation imposed by the Eclipse platform on which the Workbench is built.
+</div>  
+
+<a name="wp1068668"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> The Debug view must be present in the IDL Workbench, but need not be visible. To preserve screen real estate while keeping the Debug view open, you can add the Debug view to an existing group of views, where it will appear as an additional tab. You can also make the Debug view into a &quot;Fast View,&quot; which minimizes the view as an icon while leaving it active. (See the &quot;Views&quot; topic in the IDL Help for more information.)
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1040155"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1039371"> </a><h3 class="pHeading3">
+Windows Platforms
+</h3>  
+
+<a name="wp1039532"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1047316table1039501">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1047316"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1047318"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047373"> </a><div class="pCellBody">
+<b class="cBold">46816</b>
+</div>  
+
+</td>
+    <td><a name="wp1047375"> </a><div class="pCellBody">
+<b class="cBold">Installation Program Failures: Error 1719</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047377"> </a><div class="pCellBody">
+On some systems, the IDL installation program may exit with the following error:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">Error 1719.Windows Installer service could not be accessed.  Contact your 
+support personnel to verify that it is properly registered and enabled.  
+&#160;  
+</pre>
+<a name="wp1047379"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b>
+</div>  
+
+<a name="wp1047380"> </a><div class="pCellBody">
+Restart the IDL installer. If installation still fails, reboot the computer and restart the installer.
+</div>  
+
+<a name="wp1047381"> </a><div class="pCellBody">
+<b class="cBold">Background:</b>
+</div>  
+
+<a name="wp1047382"> </a><div class="pCellBody">
+This error occurs when the Microsoft installer engine is older than the version required by the IDL installation package. In this situation, the IDL installer updates the installer engine. In some cases, the installation procedure may be able to proceed; in others a restart of the installer or of the operating system may be required.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047386"> </a><div class="pCellBody">
+<b class="cBold">47445</b>
+</div>  
+
+</td>
+    <td><a name="wp1047388"> </a><div class="pCellBody">
+<b class="cBold">Object Creation Failure with Embedded License </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047390"> </a><div class="pCellBody">
+Attempting to create an export object with an embedded license fails when no printer is set up.
+</div>  
+
+<a name="wp1047627"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>: Install and set up a printer before running IDL.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047861"> </a><div class="pCellBody">
+<b class="cBold">48454</b>
+</div>  
+
+</td>
+    <td><a name="wp1047863"> </a><div class="pCellBody">
+<b class="cBold">WIDGET_TIMER Can Cause Applications To Freeze Until An Event Is Sent To The Application</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047864"> </a><div class="pCellBody">
+WIDGET_TIMER events fail after 10 events. This problem happens in the following cases:
+</div>  
+
+<div class="pSmartList1"><ul class="pSmartList1">
+
+<a name="wp1048113"> </a><div class="pSmartList1"><li>Timer events are chained together by setting the next timer within the handling of the current timer and before the &quot;work&quot; section of the event handler is performed.</li></div>  
+
+<a name="wp1048118"> </a><div class="pSmartList1"><li>The next timer goes off during the current timer event processing (for example, during a lengthy calculation).</li></div>  
+
+</ul></div>
+<a name="wp1048119"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Chain timer events by setting the next timer after any computations are completed. For smoother performance, set the next timer based on how long the computations take to execute, which accounts for variances in machine speed. For example, to fire the timer once every second, set the next timer to <code class="cCode">1.0 - (</code><code style="font-style: oblique" class="cCodeItalic">time to perform computation</code><code style="font-style: normal" class="cCode">)</code>, or to <code class="cCode">0.0</code> if the value is negative.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047981"> </a><div class="pCellBody">
+<b class="cBold">49522</b>
+</div>  
+
+</td>
+    <td><a name="wp1047983"> </a><div class="pCellBody">
+<b class="cBold">CVS Cheat Sheets Show Up In IDL Workbench Cheat Sheet List</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1048240"> </a><div class="pCellBody">
+Selecting <b class="cBold">Cheat Sheets</b> from the Workbench *Help* menu shows a &quot;Team/CVS&quot; category containing two CVS-related cheat sheets. CVS functionality is not included in the IDL Workbench by default, and these cheat sheets will not function properly. If you later install the CVS plug-ins, these cheat sheets will function normally.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1048503"> </a><div class="pCellBody">
+49604
+</div>  
+
+</td>
+    <td><a name="wp1048505"> </a><div class="pCellBody">
+Workbench Fails to Stop on Breakpoints When IDL is Busy (Blocking)
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1048507"> </a><div class="pCellBody">
+When a program containing breakpoints is run while IDL is busy (when a lengthy command is being executed, or when a widget application is blocking, for example), IDL does not stop at the set breakpoints. When IDL is no longer busy, running the program with breakpoints successfully stops at the set breakpoints. (Related to ID 49641.)
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1048018"> </a><div class="pCellBody">
+<b class="cBold">49641</b>
+</div>  
+
+</td>
+    <td><a name="wp1048020"> </a><div class="pCellBody">
+<b class="cBold">Updating Edited Variable Values While IDL is Busy or Blocking is Slow </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1048035"> </a><div class="pCellBody">
+If you edit a variable value using the IDL Workbench Variables view while IDL is busy (when a lengthy command is being executed, or when a widget application is blocking, for example), it may appear that the variable is not being updated. The new variable value is displayed when IDL is no longer busy. (Related to ID 49604.) 
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1040160"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1039599"> </a><h3 class="pHeading3">
+UNIX Platforms
+</h3>  
+
+<a name="wp1039628"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1039602table1039600">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1039602"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1039604"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1039606"> </a><div class="pCellBody">
+<b class="cBold">30564</b>
+</div>  
+
+</td>
+    <td><a name="wp1039608"> </a><div class="pCellBody">
+<b class="cBold">DIALOG_PRINTERSETUP Causes IDL to Hang When Called from Modal Widget </b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1039611"> </a><div class="pCellBody">
+This is a known problem with no known workarounds except to use DIALOG_PRINTERSETUP with a non-model widget.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1045929"> </a><div class="pCellBody">
+<b class="cBold">41964</b>
+</div>  
+
+</td>
+    <td><a name="wp1045931"> </a><div class="pCellBody">
+<b class="cBold">IDL Does Not Run in Security Enhanced Linux</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1045933"> </a><div class="pCellBody">
+Some recent versions of Linux implement mandatory access control in the Linux kernel using the Linux Security Modules framework. IDL will not run in such an environment without a modification to the security context for the IDL binaries.
+</div>  
+
+<a name="wp1045934"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>: Either disable SELinux or make a modification to the default security context for IDL. See <a href="http://www.ittvis.com/services/techtip.asp?ttid=3092">Tech Tip 3092</a> for details. 
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1045939"> </a><div class="pCellBody">
+<b class="cBold">42609</b>
+</div>  
+
+</td>
+    <td><a name="wp1045941"> </a><div class="pCellBody">
+<b class="cBold">WIDGET_BUTTON Bitmaps Not Found in Resource Directory</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1045943"> </a><div class="pCellBody">
+Using the VALUE keyword of WIDGET_BUTTON lets you specify the name of a bitmap image file to be used as the button label. On UNIX, this bitmap file is not being located in the <i style="font-style: oblique">IDL_DIR</i><code style="font-style: normal" class="cCode">/resource/bitmaps</code> directory and causes a &quot;Can't open bitmap file&quot; error. This occurs when only the name of the file (and not a complete path) is given. On Windows, a bitmap file identified by name only is correctly located.
+</div>  
+
+<a name="wp1045944"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>: Always specify the complete path to the bitmap file. For example, to use the <code class="cCode">arrow.bmp</code> file, you could use FILEPATH as follows:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">&#160;&#160;&#160;bmpath = FILEPATH(&#39;arrow.bmp&#39;, SUBDIRECTORY=[&#39;resource&#39;, &#39;bitmaps&#39;])  
+&#160;&#160;&#160;b = WIDGET_BUTTON( tlb, VALUE=bmpath, /BITMAP)  
+</pre>
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1042474"> </a><div class="pCellBody">
+<b class="cBold">42641</b>
+</div>  
+
+</td>
+    <td><a name="wp1042476"> </a><div class="pCellBody">
+<b class="cBold">Error May Occur After First Launch of IDL Assistant with Root Privileges</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1042493"> </a><div class="pCellBody">
+If you receive the following error after the first use of the IDL Assistant (the online-help viewer), &quot;QSetting::sync: filename is null/empty,&quot; the problem is most likely due to file permissions.
+</div>  
+
+<a name="wp1043413"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Change the ownership on the .<code class="cCode">qt</code> and .<code class="cCode">assistant</code> folders and files in your home directory: 
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">&#160;&#160;&#160;chown -R <i>&lt;user&gt;</i> .qt  
+&#160;&#160;&#160;chown -R <i>&lt;user&gt;</i> .assistant  
+&#160;  
+</pre>
+<a name="wp1043420"> </a><div class="pCellBody">
+where <code class="cCodeItalic">&lt;user&gt;</code> is your user name.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1042446"> </a><div class="pCellBody">
+<b class="cBold">43301</b>
+</div>  
+
+</td>
+    <td><a name="wp1042448"> </a><div class="pCellBody">
+<b class="cBold">Upper Left Corner of Tree Widget is Never Valid Drop Zone</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1042450"> </a><div class="pCellBody">
+When the ability to drag and drop tree widget nodes has been enabled, the UNIX tree widget does not recognize the upper left corner of the widget as a valid drop zone. This area typically extends over the icons of the first two nodes (but not the labels). This is a vendor issue. You can drop items onto the first two nodes by moving the mouse cursor over the labels instead of the icons. 
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1046067"> </a><div class="pCellBody">
+<b class="cBold">46672</b>
+</div>  
+
+</td>
+    <td><a name="wp1046069"> </a><div class="pCellBody">
+<b class="cBold">Using WAIT with IDLffMJPEG2000 on Solaris 10 causes IDL to freeze</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1046063"> </a><div class="pCellBody">
+On Solaris 10 systems, using a WAIT statement in code that calls IDLffMJPEG2000 object methods may cause IDL to freeze.
+</div>  
+
+<a name="wp1046086"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b>
+</div>  
+
+<a name="wp1046087"> </a><div class="pCellBody">
+Use a widget timer to generate WIDGET_TIMER events in place of WAIT to control the flow of execution. For an example using a widget timer to control the frame rate of displayed frames, see <code style="font-style: oblique" class="cCodeItalic">IDL_DIR</code><code style="font-style: normal" class="cCode">/examples/doc/objects/mj2_timer_doc.pro</code>, where <code class="cCodeItalic">IDL_DIR</code> is the location of your IDL installation. For additional information, see &quot;Controlling Playback Rate&quot; in the &quot;Animations&quot; chapter of the <i>Using IDL</i> manual.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1048382"> </a><div class="pCellBody">
+<b class="cBold">49527</b>
+</div>  
+
+</td>
+    <td><a name="wp1048384"> </a><div class="pCellBody">
+<b class="cBold">IDL Interpreter Suspends on OBJ_NEW(&#39;idlgrwindow&#39;) Until IDLgrWindow is Partially Visible (Redhat Enterprise 4)</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1048378"> </a><div class="pCellBody">
+When OBJ_NEW(&#39;idlgrwindow&#39;) is run from the Workbench, if a new window displays beneath the Workbench window, then the command line is desensitized until the Workbench is moved or minimized to make the IDLgrWindow at least partially visible.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047843"> </a><div class="pCellBody">
+<b class="cBold">49610</b>
+</div>  
+
+</td>
+    <td><a name="wp1047845"> </a><div class="pCellBody">
+<b class="cBold">Closing the Workbench While It Is Iconified Causes It To Lock Up (Solaris)</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047852"> </a><div class="pCellBody">
+When at least one IDL process is running and the Workbench is iconified (minimized) and then closed from the icon, the Workbench hangs until all process are manually killed.
+</div>  
+
+<a name="wp1048006"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Use the IDL Workbench menu or the IDL EXIT command to shut down the IDL Workbench.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1050403"> </a><div class="pCellBody">
+<b class="cBold">49848</b>
+</div>  
+
+</td>
+    <td><a name="wp1050405"> </a><div class="pCellBody">
+<b class="cBold">The DICOM Storage Service Does Not Start from the IDL Workbench</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1050394"> </a><div class="pCellBody">
+Attempts to start the DICOM Network Storage service by entering
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">DICOMEX_NET, /SYSTEM  
+</pre>
+<a name="wp1050397"> </a><div class="pCellBody">
+in the IDL Workbench Command Line view fail.
+</div>  
+
+<a name="wp1050399"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Start the DICOM Network Storage service from the IDL command-line version.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1065953"> </a><div class="pCellBody">
+<b class="cBold">51788</b>
+</div>  
+
+</td>
+    <td><a name="wp1065955"> </a><div class="pCellBody">
+<b class="cBold">IDL Help Stops Returning Search Results on Linux Systems</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1065945"> </a><div class="pCellBody">
+On some Linux systems, the IDL Help system will occasionally stop returning results in the Search field. This problem occurs when the number of file descriptors allocated by the operating system is set too low.
+</div>  
+
+<a name="wp1065979"> </a><div class="pCellBody">
+To determine whether a shortage of file descriptors is causing this problem on your system, look in the<code class="cCode"> browser.log</code> file located in the
+</div>  
+
+<a name="wp1065983"> </a><div class="pCellBody">
+<code class="cCode">~/.idl/itt/idlworkbench-config-idlXX/.metadata/.plugins/org.eclipse.help.base</code>
+</div>  
+
+<a name="wp1065977"> </a><div class="pCellBody">
+directory (or the <code class="cCode">.../idlhelp-XX/...</code> directory if you are using the command line version of IDL). If you see a message that looks like the following:
+</div>  
+
+<a name="wp1065968"> </a><div class="pCellBody">
+<code class="cCode">!MESSAGE Internal browser is not available: No more handles</code>
+</div>  
+
+<a name="wp1065973"> </a><div class="pCellBody">
+you will know that the system has run out of file descriptors.
+</div>  
+
+<a name="wp1065986"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Delete the <code class="cCode">~/.idl/itt/idlworkbench-config-idlXX</code> directory to temporarily solve the problem. For a more permanent solution, increase the number of available file descriptors; consult your operating system documentation for details on how to accomplish this.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1067666"> </a><div class="pCellBody">
+<b class="cBold">55427</b>
+</div>  
+
+</td>
+    <td><a name="wp1067668"> </a><div class="pCellBody">
+<b class="cBold">IDL Dataminer Requires libstdc++5.0</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1067662"> </a><div class="pCellBody">
+Third-party libraries used by the IDL Dataminer module require a library that may not be present by default on some newer Linux systems.
+</div>  
+
+<a name="wp1067682"> </a><div class="pCellBody">
+If attempting to run the IDL Dataminer results in IDL issuing an error similar to the following:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">% DLM_LOAD: Error loading sharable executable.  
+&#160;&#160;Symbol: IDL_Load, File =/rsi/qa/unix/idl71/bin/bin.linux.x86_64/idl_dataminer.so  
+&#160;&#160;libstdc++.so.5: cannot open shared object file: No such file or directory  
+% Execution halted at: $MAIN$  
+</pre>
+<a name="wp1067685"> </a><div class="pCellBody">
+you will need to install the appropriate <code class="cCode">libstdc++</code> compatibility library for your platform.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1068572"> </a><div class="pCellBody">
+<b class="cBold">55537</b>
+</div>  
+
+</td>
+    <td><a name="wp1068574"> </a><div class="pCellBody">
+<b class="cBold">IDLnetURL Objects with ENCODE Property Fails on Linux 32-Bit</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1068576"> </a><div class="pCellBody">
+Using IDLnetURL with the ENCODE property set to a value other than 0 (zero) fails on 32-bit Linux systems. 
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1040165"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+
+
+                                                  <a name="wp1039697"> </a><h3 class="pHeading3">
+Macintosh Platforms
+</h3>  
+
+<a name="wp1039721"> </a><p class="pBody">
+  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1047761table1039698">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1047761"> </a><div class="pCellHeading">
+ID
+</div>  
+
+</th>
+    <th><a name="wp1047763"> </a><div class="pCellHeading">
+Description
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047782"> </a><div class="pCellBody">
+<b class="cBold">41916</b>
+</div>  
+
+</td>
+    <td><a name="wp1047784"> </a><div class="pCellBody">
+<b class="cBold">Errors When Starting the DICOM Service</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047786"> </a><div class="pCellBody">
+If you install the DICOM Network Services module, the installer allows you to specify that the DICOM service be started automatically at boot time. If you encounter an error that looks like: 
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">&#160;&#160;&#160;dicomexstorscp_install error  
+&#160;&#160;&#160;There was an error encountered running  
+&#160;&#160;&#160;idl_7.1/bin/dicomexstorscp_install.  
+</pre>
+<a name="wp1047790"> </a><div class="pCellBody">
+then your Administrator group may not have permission to modify items in the appropriate StartupItems directory.
+</div>  
+
+<a name="wp1047791"> </a><div class="pCellBody">
+<b class="cBold">Workaround</b>:
+</div>  
+
+<a name="wp1047792"> </a><div class="pCellBody">
+1.	Log in as root. 
+</div>  
+
+<a name="wp1047793"> </a><div class="pCellBody">
+2.	Open a terminal window. 
+</div>  
+
+<a name="wp1047794"> </a><div class="pCellBody">
+3.	Enter the following commands:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">&#160;&#160;&#160;cd ~  
+&#160;&#160;&#160;touch .profile  
+</pre>
+<a name="wp1047800"> </a><div class="pCellBody">
+4.	Change to the directory where ITT Visual Information Solutions products are installed (by default, <code class="cCode">/Applications/itt</code>):
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">&#160;&#160;&#160;cd /Applications/itt  
+</pre>
+<a name="wp1047802"> </a><div class="pCellBody">
+5.	Enter the following command:
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">&#160;&#160;&#160;./idl71/bin/dicomexstorscp_install  
+</pre>
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1047817"> </a><div class="pCellBody">
+<b class="cBold">47668</b>
+</div>  
+
+</td>
+    <td><a name="wp1047819"> </a><div class="pCellBody">
+<b class="cBold">Drag and drop </b><b class="cBold">.pro</b><b class="cBold"> file from Navigator to Editor does not open the file</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1047821"> </a><div class="pCellBody">
+In some cases, dragging a file with the <code class="cCode">.pro</code> extension from the Navigator to the IDL Workbench Editor is unsuccessful. 
+</div>  
+
+<a name="wp1047822"> </a><div class="pCellBody">
+<b class="cBold">Workaround: </b>Open <code class="cCode">.pro</code> files from within the IDL Workbench. If IDL is installed in Applications, double-clicking on a file it will open it in the Workbench.
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1050390"> </a><div class="pCellBody">
+<b class="cBold">49848</b>
+</div>  
+
+</td>
+    <td><a name="wp1050392"> </a><div class="pCellBody">
+<b class="cBold">The DICOM Storage Service Does Not Start from the IDL Workbench</b>
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="2" rowspan="1"><a name="wp1050428"> </a><div class="pCellBody">
+Attempts to start the DICOM Network Storage service by entering
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">DICOMEX_NET, /SYSTEM  
+&#160;  
+</pre>
+<a name="wp1050431"> </a><div class="pCellBody">
+or
+</div>  
+
+<div class="pPreformatted"><pre class="pPreformatted">IDLffDicomExCfg::StorageScpService(&quot;Start&quot;)  
+&#160;  
+</pre>
+<a name="wp1050434"> </a><div class="pCellBody">
+in a program run from within the IDL Workbench or in the IDL Workbench Command Line view fail.
+</div>  
+
+<a name="wp1050386"> </a><div class="pCellBody">
+<b class="cBold">Workaround:</b> Start the DICOM Network Storage service from the IDL command-line version or the DICOMNetworkServices applescript.
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1044340"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1060795"> </a><h2 class="pHeading2">
+Hardware and Operating System Requirements<a name="OS_Req"> </a>
+</h2>  
+
+
+<a name="wp1077308"> </a><h2 class="pHeading2">
+Hardware and Operating System Requirements
+</h2>  
+
+
+<a name="wp1077309"> </a><p class="pBody">
+A network interface card (NIC or Ethernet) is required for software-based node-locked and floating licenses. The following table describes the supported platforms and operating systems for IDL, ENVI, ENVI Zoom, and ENVI EX.   </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1077312table1077310">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1077312"> </a><div class="pCellHeading">
+Platform
+</div>  
+
+</th>
+    <th><a name="wp1077314"> </a><div class="pCellHeading">
+Vendor
+</div>  
+
+</th>
+    <th><a name="wp1077316"> </a><div class="pCellHeading">
+Hardware
+</div>  
+
+</th>
+    <th><a name="wp1077318"> </a><div class="pCellHeading">
+Operating
+</div>  
+
+<a name="wp1077319"> </a><div class="pCellHeading">
+System
+</div>  
+
+</th>
+    <th><a name="wp1077321"> </a><div class="pCellHeading">
+Supported Versions a
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="1" rowspan="2"><a name="wp1077323"> </a><div class="pCellBody">
+Windows
+</div>  
+
+</td>
+    <td colspan="1" rowspan="2"><a name="wp1077325"> </a><div class="pCellBody">
+Microsoft
+</div>  
+
+</td>
+    <td><a name="wp1077327"> </a><div class="pCellBody">
+Intel/AMD x86 32-bit
+</div>  
+
+</td>
+    <td colspan="1" rowspan="2"><a name="wp1077329"> </a><div class="pCellBody">
+Windows 
+</div>  
+
+</td>
+    <td colspan="1" rowspan="2"><a name="wp1077331"> </a><div class="pCellBody">
+7, Vista, XP SP2
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077337"> </a><div class="pCellBody">
+Intel/AMD x86_64 64-bit
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="1" rowspan="3"><a name="wp1077343"> </a><div class="pCellBody">
+Macintosh
+</div>  
+
+</td>
+    <td colspan="1" rowspan="3"><a name="wp1077345"> </a><div class="pCellBody">
+Apple
+</div>  
+
+</td>
+    <td><a name="wp1077347"> </a><div class="pCellBody">
+PowerPC 32-bit
+</div>  
+
+</td>
+    <td colspan="1" rowspan="3"><a name="wp1077349"> </a><div class="pCellBody">
+OS X
+</div>  
+
+</td>
+    <td colspan="1" rowspan="3"><a name="wp1077351"> </a><div class="pCellBody">
+10.5.1
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077357"> </a><div class="pCellBody">
+Intel 32-bit
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077367"> </a><div class="pCellBody">
+Intel 64-bit
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td colspan="1" rowspan="5"><a name="wp1077373"> </a><div class="pCellBody">
+UNIX
+</div>  
+
+</td>
+    <td><a name="wp1077375"> </a><div class="pCellBody">
+SUN
+</div>  
+
+</td>
+    <td><a name="wp1077377"> </a><div class="pCellBody">
+SPARC 32-bit
+</div>  
+
+</td>
+    <td><a name="wp1077379"> </a><div class="pCellBody">
+Solaris <sup class="cSuperscript">c</sup>
+</div>  
+
+</td>
+    <td><a name="wp1077381"> </a><div class="pCellBody">
+10
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077385"> </a><div class="pCellBody">
+SUN
+</div>  
+
+</td>
+    <td><a name="wp1077387"> </a><div class="pCellBody">
+SPARC 64-bit
+</div>  
+
+</td>
+    <td><a name="wp1077389"> </a><div class="pCellBody">
+Solaris <sup class="cSuperscript">c</sup>
+</div>  
+
+</td>
+    <td><a name="wp1077391"> </a><div class="pCellBody">
+10
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077395"> </a><div class="pCellBody">
+SUN
+</div>  
+
+</td>
+    <td><a name="wp1077397"> </a><div class="pCellBody">
+Intel/AMD x86_64 64-bit
+</div>  
+
+</td>
+    <td><a name="wp1077399"> </a><div class="pCellBody">
+Solaris <sup class="cSuperscript">e</sup>
+</div>  
+
+</td>
+    <td><a name="wp1077401"> </a><div class="pCellBody">
+10
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077405"> </a><div class="pCellBody">
+Various
+</div>  
+
+</td>
+    <td><a name="wp1077407"> </a><div class="pCellBody">
+Intel/AMD x86 32-bit
+</div>  
+
+</td>
+    <td><a name="wp1077409"> </a><div class="pCellBody">
+Linux<sup class="cSuperscript"> b, c</sup>
+</div>  
+
+</td>
+    <td colspan="1" rowspan="2"><a name="wp1077411"> </a><div class="pCellBody">
+Kernel version 2.6.9<br />glibc version 2.3.4<br />gtk2 version 2.4.13
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077415"> </a><div class="pCellBody">
+Various
+</div>  
+
+</td>
+    <td><a name="wp1077417"> </a><div class="pCellBody">
+Intel/AMD x86_64 64-bit
+</div>  
+
+</td>
+    <td><a name="wp1077419"> </a><div class="pCellBody">
+Linux<sup class="cSuperscript"> b, c, d</sup>
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1077422"> </a><p class="pBody">
+<sup class="cSuperscript">a </sup>Supported versions indicate that IDL, ENVI, ENVI Zoom, and ENVI EX were either built on (the lowest version listed) or tested on that version. You can install and run IDL, ENVI, ENVI Zoom, and ENVI EX on other versions that are binary compatible with those listed.
+</p>  
+
+<a name="wp1077423"> </a><p class="pBody">
+<sup class="cSuperscript">b </sup>The LINUX version of IDL is built on RedHat 4. If your version of Linux is compatible with the listed kernel and glibc versions, you should be able to install and run IDL, ENVI, ENVI Zoom, and ENVI EX.
+</p>  
+
+<a name="wp1077424"> </a><p class="pBody">
+<sup class="cSuperscript">c </sup>The IDL Workbench requires the GTK+ library version 2.4 or later. Printing functionality in the Workbench requires GTK+ library version 2.10 or later. If GTK+ version 2.4 or later is not available, IDL will only run in console mode.
+</p>  
+
+<a name="wp1077425"> </a><p class="pBody">
+<sup class="cSuperscript">d</sup> On 64-bit Linux systems, the IDL Workbench requires that your platform's 32-bit compatibility libraries be installed.
+</p>  
+
+<a name="wp1077426"> </a><h2 class="pHeading2">
+32-bit and 64-bit Versions
+</h2>  
+
+
+<a name="wp1077427"> </a><p class="pBody">
+On UNIX and Macintosh Intel platforms that provide 64-bit support, you can run IDL, ENVI, ENVI Zoom, or ENVI EX as either a 32-bit or a 64-bit application. When both versions are installed, the 64-bit version is the default. You can run the 32-bit version by specifying the <code class="cCode">-32</code> switch at the command line, as follows:
+</p>  
+
+<div class="pPreformatted"><pre class="pPreformatted">% idl -32   
+% idlde -32  
+% envi -32  
+% envizoom -32  
+% enviex -32  
+</pre>
+</div>
+<a name="wp1077433"> </a><p class="pBody">
+On Windows, the 32-bit and 64-bit versions are started via separate Start menu entries.
+</p>  
+
+<a name="wp1077434"> </a><p class="pBody">
+On Macintosh Intel 64-bit machines, you can double-click on the 32-bit Macintosh Applescript (.app) files.
+</p>  
+
+<a name="wp1077435"> </a><h2 class="pHeading2">
+Graphics Hardware
+</h2>  
+
+
+<a name="wp1077436"> </a><p class="pBody">
+Some IDL, ENVI Zoom, and ENVI EX features take advantage of graphics hardware that supports the OpenGL 2.0 interface to improve rendering performance, if such hardware is present. Your video card should support OpenGL 2.0 or higher to take advantage of these features. Be sure to update your video card drivers with the most recent version.
+</p>  
+
+<a name="wp1077437"> </a><h2 class="pHeading2">
+Platform Support Questions and Answers
+</h2>  
+
+
+<a name="wp1077438"> </a><p class="pBody">
+This topic describes the platform support requirements for IDL 8.0 and ENVI 5.0. Platform support requirements change over time; for the most current information, visit the ITT Visual Information Solutions web site: <a href="http://www.ittvis.com/ProductServices/IDL/PlatformSupport.aspx">http://ittvis.com/ProductServices/IDL/PlatformSupport.aspx</a>.
+</p>  
+
+<a name="wp1077440"> </a><h2 class="pHeading2">
+Software Requirements
+</h2>  
+
+
+<a name="wp1077454"> </a><p class="pBody">
+IDL, ENVI, ENVI Zoom, and ENVI EX require the following software:  </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1077443table1077441">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1077443"> </a><div class="pCellHeading">
+Platform
+</div>  
+
+</th>
+    <th><a name="wp1077445"> </a><div class="pCellHeading">
+Software Requirements
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077447"> </a><div class="pCellBody">
+Windows
+</div>  
+
+</td>
+    <td><a name="wp1077449"> </a><div class="pCellBody">
+Internet Explorer 5.0 or higher
+</div>  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077451"> </a><div class="pCellBody">
+Macintosh
+</div>  
+
+</td>
+    <td><a name="wp1077453"> </a><div class="pCellBody">
+Apple X11 X-Windows manager
+</div>  
+
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1054284"> </a><div class="pCellBody">
+<span style="text-decoration: underline"><a href="idl_release_notes.html">back to top</a></span> 
+</div>  
+
+<a name="wp1054278"> </a><h2 class="pHeading2">
+Feature Support by Operating System<a name="Feature_Support"> </a>
+</h2>  
+
+
+<a name="wp1079097"> </a><h2 class="pHeading2">
+IDL Features
+</h2>  
+
+
+<a name="wp1077463"> </a><p class="pBody">
+The following table shows marks indicating which platforms support the corresponding feature. IDL technologies not listed in this table are assumed to work on all supported platforms.   </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1077466table1077464">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th colspan="1" rowspan="2"><a name="wp1077466"> </a><div class="pCellHeading">
+Feature
+</div>  
+
+</th>
+    <th colspan="2" rowspan="1"><a name="wp1077468"> </a><div class="pCellHeading">
+Windows&#160;&#160;
+</div>  
+
+</th>
+    <th colspan="3" rowspan="1"><a name="wp1077472"> </a><div class="pCellHeading">
+OS X 
+</div>  
+
+</th>
+    <th colspan="2" rowspan="1"><a name="wp1077478"> </a><div class="pCellHeading">
+Linux
+</div>  
+
+</th>
+    <th colspan="3" rowspan="1"><a name="wp1077482"> </a><div class="pCellHeading">
+Solaris
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1077490"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077492"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077494"> </a><div class="pCellBody">
+<b class="cBold">PPC<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077496"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077498"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077500"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077502"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077504"> </a><div class="pCellBody">
+<b class="cBold">SPARC<br /></b><b class="cBold">32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077506"> </a><div class="pCellBody">
+<b class="cBold">SPARC<br /></b><b class="cBold">64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1077508"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077510"> </a><div class="pCellBody">
+ActiveX: WIDGET_ACTIVEX (IDLcomActiveX object)
+</div>  
+
+</td>
+    <td><a name="wp1077512"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077532"> </a><div class="pCellBody">
+COM Object &#8211;Export (via Export Bridge Assistant)
+</div>  
+
+</td>
+    <td><a name="wp1077534"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077536"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077554"> </a><div class="pCellBody">
+COM Object &#8211;Import (IDLcomIDispatch object)
+</div>  
+
+</td>
+    <td><a name="wp1077556"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077576"> </a><div class="pCellBody">
+DataMiner
+</div>  
+
+</td>
+    <td><a name="wp1077578"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077580"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1077588"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077590"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077592"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077594"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077598"> </a><div class="pCellBody">
+DICOM Network Services
+</div>  
+
+</td>
+    <td><a name="wp1077600"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077602"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077604"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1077610"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1077614"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077620"> </a><div class="pCellBody">
+DICOM Read/Write (IDLffDicomEx object)
+</div>  
+
+</td>
+    <td><a name="wp1077622"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077624"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077626"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1077632"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1077636"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077642"> </a><div class="pCellBody">
+DICOM Read (IDLffDicom object)
+</div>  
+
+</td>
+    <td><a name="wp1077644"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077646"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077648"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077650"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077652"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077654"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077656"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077658"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077660"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077664"> </a><div class="pCellBody">
+DXF file format (IDLffDXF object)
+</div>  
+
+</td>
+    <td><a name="wp1077666"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1077676"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1077680"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077686"> </a><div class="pCellBody">
+IDL Advanced Math and Stats<br />(IMSL Numerical Library)
+</div>  
+
+</td>
+    <td><a name="wp1077688"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1077692"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077694"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1077698"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077700"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077702"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077704"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077708"> </a><div class="pCellBody">
+MrSID (IDLffMrSID)
+</div>  
+
+</td>
+    <td><a name="wp1077710"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077730"> </a><div class="pCellBody">
+Remote Procedure Calls (RPCs)
+</div>  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1077736"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077738"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1077742"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077744"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077746"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077748"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077750"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1077752"> </a><div class="pCellBody">
+IDL Workbench and Online Help
+</div>  
+
+</td>
+    <td><a name="wp1077754"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077756"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077758"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077760"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077762"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077764"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077766"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077768"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1077770"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1079102"> </a><h2 class="pHeading2">
+ENVI Features
+</h2>  
+
+
+<a name="wp1079103"> </a><p class="pBody">
+The following table shows marks indicating which platforms support the corresponding feature. These features are in addition to those listed in <a href="idl_release_notes.html#wp1079097">IDL Features</a>. ENVI technologies not listed in this table are assumed to work on all supported platforms.   </p>
+<div>
+<table border="0" cellpadding="5" cellspacing="1" id="wp1079109table1079107">
+  <caption></caption>
+  <tr bgcolor="#D5D5DE" align="center">    <th colspan="1" rowspan="2"><a name="wp1079109"> </a><div class="pCellHeading">
+Feature
+</div>  
+
+</th>
+    <th colspan="2" rowspan="1"><a name="wp1079111"> </a><div class="pCellHeading">
+Windows
+</div>  
+
+</th>
+    <th colspan="3" rowspan="1"><a name="wp1079115"> </a><div class="pCellHeading">
+OS X 
+</div>  
+
+</th>
+    <th colspan="2" rowspan="1"><a name="wp1079121"> </a><div class="pCellHeading">
+Linux
+</div>  
+
+</th>
+    <th colspan="2" rowspan="1"><a name="wp1079125"> </a><div class="pCellHeading">
+Solaris
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#D5D5DE" align="center">    <th><a name="wp1079131"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />32-bit </b><sup class="cSuperscript">a</sup>
+</div>  
+
+</th>
+    <th><a name="wp1079133"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079135"> </a><div class="pCellBody">
+<b class="cBold">PPC<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079137"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079139"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079141"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079143"> </a><div class="pCellBody">
+<b class="cBold">Intel<br />64-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079145"> </a><div class="pCellBody">
+<b class="cBold">SPARC<br /></b><b class="cBold">32-bit</b>
+</div>  
+
+</th>
+    <th><a name="wp1079147"> </a><div class="pCellBody">
+<b class="cBold">SPARC<br /></b><b class="cBold">64-bit</b>
+</div>  
+
+</th>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079149"> </a><div class="pCellBody">
+Atmospheric Correction Module: QUAC and FLAASH (ENVI) 
+</div>  
+
+</td>
+    <td><a name="wp1079151"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1079161"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079163"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079165"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079167"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079169"> </a><div class="pCellBody">
+Tape utilities (ENVI)
+</div>  
+
+</td>
+    <td><a name="wp1079171"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1079175"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079177"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079179"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079181"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079183"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079185"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079187"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079189"> </a><div class="pCellBody">
+Reading ECW files (ENVI)
+</div>  
+
+</td>
+    <td><a name="wp1079191"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079209"> </a><div class="pCellBody">
+Reading and writing ESRI<sup class="cSuperscript">®</sup> GRID files (ENVI)
+</div>  
+
+</td>
+    <td><a name="wp1079211"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079229"> </a><div class="pCellBody">
+Reading and writing ESRI<sup class="cSuperscript">®</sup> GRID files (ENVI Zoom and ENVI EX)
+</div>  
+
+</td>
+    <td><a name="wp1079231"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079233"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079235"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079237"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079239"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079241"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079243"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079245"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079247"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079249"> </a><div class="pCellBody">
+GPS Link (ENVI)
+</div>  
+
+</td>
+    <td><a name="wp1079251"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079269"> </a><div class="pCellBody">
+Reading MrSID files (ENVI)
+</div>  
+
+</td>
+    <td><a name="wp1079271"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079289"> </a><div class="pCellBody">
+Reading MrSID files (ENVI Zoom and ENVI EX)
+</div>  
+
+</td>
+    <td><a name="wp1079291"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079293"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1079301"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079303"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079305"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079307"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079309"> </a><div class="pCellBody">
+RemoteView link (ENVI)
+</div>  
+
+</td>
+    <td><a name="wp1079311"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1079325"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079327"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079329"> </a><div class="pCellBody">
+Opening files in ArcMap<sup class="cSuperscript">&#8482;</sup> software (all products) <sup class="cSuperscript">b</sup>
+</div>  
+
+</td>
+    <td><a name="wp1079331"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079349"> </a><div class="pCellBody">
+ArcGIS<sup class="cSuperscript">®</sup> geodatabase support<br />(all products):<sup class="cSuperscript">b<br /></sup>
+</div>  
+
+<a name="wp1079350"> </a><div class="pCellBody">
+<i>Connect to and read from geodatabase</i>
+</div>  
+
+<a name="wp1079351"> </a><div class="pCellBody">
+<i>Save to file or personal geodatabase<br />Save to enterprise SDE geodatabase</i> <sup class="cSuperscript">c</sup>
+</div>  
+
+</td>
+    <td><a name="wp1079353"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079371"> </a><div class="pCellBody">
+Chip to PowerPoint<sup class="cSuperscript">®</sup> software (ENVI Zoom and ENVI EX)
+</div>  
+
+</td>
+    <td><a name="wp1079373"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079375"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079391"> </a><div class="pCellBody">
+Map Layout view (<b style="font-weight: bold" class="cBold">File </b><b style="font-family: Symbol; font-weight: normal" class="cBold">&#8594;</b><b style="font-weight: bold" class="cBold"> Print</b> in ENVI Zoom and ENVI EX) <sup class="cSuperscript">d</sup>
+</div>  
+
+</td>
+    <td><a name="wp1079393"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079411"> </a><div class="pCellBody">
+IAS and JPIP (all products)
+</div>  
+
+</td>
+    <td><a name="wp1079413"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1079417"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079419"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079421"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079423"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079425"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td><a name="wp1079429"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079431"> </a><div class="pCellBody">
+NITF (all products) <sup class="cSuperscript">d</sup>
+</div>  
+
+</td>
+    <td><a name="wp1079433"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079435"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1079443"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079445"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079447"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079449"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079451"> </a><div class="pCellBody">
+TFRD module (all products)
+</div>  
+
+</td>
+    <td><a name="wp1079453"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079455"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><a name="wp1079463"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079465"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079467"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079469"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079471"> </a><div class="pCellBody">
+ENVI Orthorectification Module
+</div>  
+
+</td>
+    <td><a name="wp1079473"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079475"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+  <tr bgcolor="#E2E2E2">    <td><a name="wp1079491"> </a><div class="pCellBody">
+THOR Workflows
+</div>  
+
+</td>
+    <td><a name="wp1079493"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td><a name="wp1079495"> </a>
+<CENTER>&#8226;</CENTER>
+  
+
+</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+
+</p>  
+
+<a name="wp1079510"> </a><div class="pCellBody">
+<sup class="cSuperscript">a</sup> Windows users: these ENVI functions only run in 32-bit mode. If you have a 64-bit Windows PC and you want to use these functions, run ENVI in 32-bit mode as follows from the Windows Start menu:  <b style="font-weight: bold" class="cBold">Program Files&#160;</b>&#8594;<span style="vertical-align: super"> </span><b style="vertical-align: baseline" class="cBold">ENVI </b><i>x.x</i>&#160;&#8594;<span style="vertical-align: super"> </span><b style="font-weight: bold; vertical-align: baseline" class="cBold">32-bit&#160;</b>&#8594; <b class="cBold">ENVI</b> or <b class="cBold">ENVI&#160;+&#160;IDL</b> or <b class="cBold">ENVI Zoom</b>.
+</div>  
+
+<a name="wp1079511"> </a><div class="pCellBody">
+<sup class="cSuperscript">b</sup> Supported on ArcGIS<sup class="cSuperscript">®</sup> Desktop 9.2 and later; tested on Windows XP 32-bit and Vista 32-bit with ArcGIS<sup class="cSuperscript">®</sup> Desktop 9.3.
+</div>  
+
+<a name="wp1079512"> </a><div class="pCellBody">
+<sup class="cSuperscript">c </sup>Requires ArcInfo<sup class="cSuperscript">®</sup> or ArcEditor<sup class="cSuperscript">&#8482;</sup> license (ArcView<sup class="cSuperscript">®</sup> does not support this feature).
+</div>  
+
+<a name="wp1078184"> </a><div class="pCellBody">
+<sup class="cSuperscript">d </sup>In order to display NITF files in the <b class="cBold">File &gt; Print</b> dialog in ENVI Zoom and ENVI EX, NITF for ArcGIS must be installed.
+</div>
+
+<P></P>
+<P></P>
+<P><FONT COLOR="gray" SIZE="-3">&nbsp;&nbsp;IDL 7.1.2 (October 21, 2009)</FONT></P>
+  </body>
+</html>

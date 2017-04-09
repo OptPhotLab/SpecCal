@@ -1,0 +1,16 @@
+IDL uses the LAPACK numerical analysis package.
+
+From the Lapack User's Guide:
+
+LAPACK is a freely available software package provided on the World
+Wide Web via netlib, anonymous ftp, and http access. Thus it can be
+included in commercial packages (and has been). We ask only that
+proper credit be given to the authors by citing this users' guide as
+the official reference for LAPACK.
+
+Like all software, this package is copyrighted. It is not trademarked;
+however, if modifications are made that affect the interface,
+functionality, or accuracy of the resulting software, the name of the
+routine should be changed. Any modification to our software should be
+noted in the modifier's documentation.
+
